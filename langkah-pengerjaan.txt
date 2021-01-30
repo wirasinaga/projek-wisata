@@ -1,0 +1,16 @@
+Langkah Pembuatan
+	
+	Ketua
+		1. Buat projek baru di android studio
+		2. Lalu buat ketik git init di terminal
+		3. Buat repository baru di github
+		4. Setelah itu ketikkan git add . , dan ketik git commit -m "Pesan Commit"
+		5. Tambahkan git remote add origin "link_yang_dikasih_github"
+		6. Lakukan push dengan mengetikkan git push -u origin nama_branch
+
+	Anggota
+		1. Buat projek baru dari android studio, di menu File > New > Project From version control
+		2. Pastikan posisi branch saat ini ada pada master
+		3. Setelah itu buat branch baru untuk masing-masing anggota sesuai dengan nama fitur
+		4. Setelah pengerjaan selesai, lakukan git add dan commit.
+		5. Push branch ke github
