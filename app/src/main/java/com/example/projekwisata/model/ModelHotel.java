@@ -45,4 +45,5 @@ public class ModelHotel implements Serializable {
     public void setGambarHotel(String gambarHotel) {
         this.GambarHotel = gambarHotel;
     }
+}
 

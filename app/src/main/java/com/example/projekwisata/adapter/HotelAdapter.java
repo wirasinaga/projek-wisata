@@ -10,11 +10,10 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.projekwisata.R;
-import com.example.projekwisata.model.ModelHotel;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-
+import com.example.projekwisata.R;
+import com.example.projekwisata.model.ModelHotel;
 import java.util.List;
 
 public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> {
@@ -48,6 +47,7 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
                 .load(data.getGambarHotel())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.imgHotel);
+
 
         holder.tvNamaHotel.setText(data.getTxtNamaHotel());
         holder.rlListHotel.setOnClickListener(new View.OnClickListener() {
